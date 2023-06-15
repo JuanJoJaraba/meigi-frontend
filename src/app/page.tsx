@@ -1,7 +1,7 @@
 "use client";
 import React, { Children, useState } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Login from "./paginas/login"
+import Login from "./paginas/login";
 import RootLayout from './layout';
 
 export default function App() {
