@@ -1,19 +1,21 @@
-"use client";
-import React, { Children, useState } from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Login from "./paginas/login";
-import RootLayout from './layout';
+"use client"
+
+import Home from "@/pages/login"
+import { BrowserRouter, Route, Routes } from "react-router-dom"
 
 export default function App() {
-    return (
+
+  return (
+
+    <div>
       <BrowserRouter>
         <Routes>
-          <Route path="/login" element={<RootLayout children={undefined} />}>
-            <Route index element={<Login />} />
-            <Route path="login" element={<Login />} />
-    
+          <Route path="/login" element={<Home />}>
           </Route>
         </Routes>
       </BrowserRouter>
-    );
-  }
+    </div>
+
+  )
+
+};

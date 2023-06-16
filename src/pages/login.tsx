@@ -1,11 +1,11 @@
 "use client";
 import 'bootstrap/dist/css/bootstrap.css';
-import "../contenedores/contenedor-principal.css";
-import InputText from '../formularios/input_texto';
-import "../contenedores/input_texto.css"
+import "../app/contenedores/contenedor-principal.css";
+import InputText from '../app/formularios/input_texto';
+import "../app/contenedores/input_texto.css"
 import React, { useState } from "react";
-import Icon from '../assets/imagen';
-import BotonPrincipal from '../formularios/botonprincipal';
+import Icon from '../app/assets/imagen';
+import BotonPrincipal from '../app/formularios/botonprincipal';
 import axios from 'axios';
 
 
