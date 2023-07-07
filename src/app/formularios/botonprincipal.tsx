@@ -6,7 +6,8 @@ const BotonPrincipal = (props: { texto: string, callBack: Function }) => {
 
     return (
 
-        <button className="boton_pincipal" onClick={function(){props.callBack()}}>{props.texto}</button>
+        <button className="boton_principal" onClick={function(){props.callBack()}}>{props.texto}</button>
+        
 
     );
 

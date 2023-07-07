@@ -1,19 +1,41 @@
-"use client";
-import React, { Children, useState } from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Login from "./paginas/login"
-import RootLayout from './layout';
+"use client"
+import Login from "@/pages/login";
+import React from "react"
+import { BrowserRouter, Route, Routes } from "react-router-dom"
+import HOME from "@/pages/home";
+import REGISTRO from "@/pages/registro";
+import Productos from "@/pages/productos";
+import REGISTROPRODUCTOS from "@/pages/registroproductos";
+import Usuarios from "@/pages/usuarios";
+
+
+
+
+
+
+
 
 export default function App() {
-    return (
-      <BrowserRouter>
-        <Routes>
-          <Route path="/login" element={<RootLayout children={undefined} />}>
-            <Route index element={<Login />} />
-            <Route path="login" element={<Login />} />
-    
-          </Route>
-        </Routes>
-      </BrowserRouter>
-    );
-  }
+
+
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route index element={<HOME />} />
+        <Route path="/registro" element={<REGISTRO />} />
+        <Route path="/productos" element={<Productos/> } />
+        <Route path="/usuarios" element={<Usuarios/>} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/registroproductos" element={<REGISTROPRODUCTOS/>} />
+      </Routes>
+    </BrowserRouter>
+  )
+}
+
+
+
+
+
+
+
+
