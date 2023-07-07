@@ -1,29 +1,55 @@
-.boton_pincipal {
-
+.boton_principal {
+    width: 50%;
+    height: 3%;
+    padding: 3%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background: #FFFFFF;
-    border: 0.5px solid #000000;
+    border: 0.3px solid #000000;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
-    width: 60%;
-    height: 7%;
     font-family: 'Inria Sans';
-    font-style: normal;
+    font-style: light;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 15px;
     line-height: 24px;
-    margin-left: 100px;
-    margin-top: 30px;
-    color: #000000;
+    margin-left: 25%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #000000b3;
+
+
+}
+
+.boton2 {
+    width: 50%;
+    height: 3%;
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+    border: 0.3px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    font-family: 'Inria Sans';
+    font-style: light;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    margin-left: 25%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #000000b3;
 
 
 }
 
 
-.boton_pincipal:hover{
+.boton_principal:hover {
     background: rgb(235, 220, 220);
 
 }
@@ -36,8 +62,149 @@
     justify-content: center;
     align-items: center;
     font-family: 'Inria Sans';
-    font-size: 20px;
+    font-size: 15px;
     margin-bottom: 40px;
     margin-top: 45px;
 
+}
+
+.href-registro {
+    display: flex;
+    text-decoration: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inria Sans';
+    font-size: 15px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    color: rgb(5, 5, 5);
+
+}
+
+.botones3 {
+    border: 0.1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Inria Sans';
+    font-style: light;
+    width: 150px;
+    height: 2%;
+    font-weight: 400px;
+    font-size: 15px;
+    padding: 3px;
+}
+
+.botones4 {
+
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 0.1px lightgray #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Inria Sans';
+    font-style: light;
+    width: 15%;
+    height: 2%;
+    font-weight: 400px;
+    font-size: 15px;
+    padding: 0.8%;
+    margin-top: 20px;
+
+}
+
+.botones4:hover {
+    background: rgb(235, 220, 220);
+
+}
+
+.botones5 {
+
+    justify-content: left;
+    align-items: center;
+    border: 0.02px lightgray #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Inria Sans';
+    font-style: light;
+    width: 15%;
+    height: 2%;
+    font-weight: 400;
+    font-size: 15px;
+    padding: 0.8%;
+    margin-top: 20px;
+    margin-left: 500px;
+
+}
+
+.botones5:hover {
+    background: rgb(235, 220, 220);
+
+}
+.botones6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0.1px solid #000000;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Inria Sans';
+    font-style: light;
+    width: 150px;
+    height: 3.5%;
+    font-weight: 400px;
+    font-size: 20px;
+    padding: 3%;
+    margin: 7px;
+}
+.botones6:hover {
+    background: rgb(235, 220, 220);
+
+}
+.botones7 {
+    margin-left: 3px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Inria Sans';
+    font-style: light;
+    width: 170px;
+    height: 3%;
+    font-weight: 400px;
+    font-size: 15px;
+    padding: 3px;
+}
+
+
+
+.botonbuscar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.02px lightgray #000000;
+    border-radius: 2px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Inria Sans';
+    font-style: light;
+    width: 170px;
+    height: 2%;
+    font-weight: 400px;
+    font-size: 15px;
+    padding: 3px;
+}
+
+.btn1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Inria Sans';
+    font-style: light;
+    width: 72%;
+    height: 6%;
+    padding: 6%;
+    border-radius: 7px;
+    border: none;
+    margin-left: 50px;
+    margin-bottom: 5PX;
+}
+
+.btn1:hover {
+    background: rgba(126, 164, 211, 0.834);
 }

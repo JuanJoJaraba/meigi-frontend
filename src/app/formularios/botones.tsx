@@ -1,16 +1,18 @@
 "use client";
 
 import React from "react";
-import '../contenedores/botones.css';
+import '../contenedores/botonprincipal.css';
 
-export default function Botones () {
+const Botones = (props: { texto: string, callBack: Function }) => {
+  
 
     return (
 
-        <><button type="submit" className="btn btn-light btn-sm"><b>INICIAR SESION</b></button><button type="submit" className="btn btn-light btn-sm"><b>REGISTRARSE</b></button></>
+        <button className="boton2" onClick={function(){props.callBack()}}>{props.texto}</button>
         
-    )
 
+    );
 
 }
 
+export default Botones;
