@@ -1,36 +1,29 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Meigi Frontend
 
-## Getting Started
+## Descripción
 
-First, run the development server:
+Meigi Frontend es la interfaz de usuario de la aplicación Meigi, diseñada para proporcionar una experiencia de usuario intuitiva y eficiente. Este proyecto está construido utilizando tecnologías modernas para asegurar su rendimiento y escalabilidad.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## Funcionalidades
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Autenticación de Usuarios**: Inicio de sesión y registro de usuarios.
+- **Gestión de Productos**: Creación, edición y eliminación de productos.
+- **Carrito de Compras**: Funcionalidad para agregar y quitar productos del carrito.
+- **Historial de Compras**: Visualización de compras pasadas.
+- **Notificaciones**: Alertas y notificaciones para diversas acciones del usuario.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Tecnologías
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Este proyecto utiliza las siguientes tecnologías:
 
-## Learn More
+- **React**: Biblioteca de JavaScript para construir interfaces de usuario.
+- **Tailwind CSS**: Framework de CSS para un diseño rápido y responsivo.
+- **TypeScript**: Lenguaje de programación que extiende JavaScript añadiendo tipos estáticos.
+- **SweetAlert**: Librería para mostrar alertas personalizadas.
+- **Axios**: Cliente HTTP para realizar peticiones a la API.
 
-To learn more about Next.js, take a look at the following resources:
+## Lenguaje
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **JavaScript/TypeScript**: Utilizado para desarrollar la lógica de la aplicación y componentes de React.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-
-Testing branch dev
